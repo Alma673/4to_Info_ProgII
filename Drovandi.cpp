@@ -5,7 +5,7 @@ int main(){
     do{
         cout<<"ingrese la cantidad de filas"<<endl;
         cin>>n;
-    }while(n<2);
+    };
     int matriz[n][2];
     int vector[n];
     cout<<"ingrese los valores "<<endl;
@@ -15,7 +15,7 @@ int main(){
             vector[i]=matrix[i][0]+matrix[i][1];
         }
     }
-        if(n==2){
+        
             if(vector[0]>0 && vector[1]>0){
                 cout<<" El vector se encuentra en el C.I";
             }else
