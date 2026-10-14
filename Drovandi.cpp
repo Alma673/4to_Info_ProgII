@@ -6,13 +6,13 @@ int main(){
         cout<<"ingrese la cantidad de filas"<<endl;
         cin>>n;
     }while(n<2);
-    int matriz[n][2];
+    int matriz_1[n][2];
     int vector[n];
     cout<<"ingrese los valores "<<endl;
     for(int i=0; i<n; i++){
         for(int j=0; j<2; j++){
-            matriz[i][j];
-            vector[i]=matrix[i][0]+matrix[i][1];
+            matriz_1[i][j];
+            vector[i]=matriz_1[i][0]+matriz_1[i][1];
         }
     }
         if(n==2){
