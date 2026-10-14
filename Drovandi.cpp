@@ -6,7 +6,7 @@ int main(){
         cout<<"ingrese la cantidad de filas"<<endl;
         cin>>n;
     }while(n<2);
-    int matriz[n][2];
+    int mercadona[n][2];
     int vector[n];
     cout<<"ingrese los valores "<<endl;
     for(int i=0; i<n; i++){
